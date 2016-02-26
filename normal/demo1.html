@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title>DEMO1</title>
+    <script src="dep/react.js"></script>
+    <script src="dep/react-dom.js"></script>
+    <!--下面的是一套es6的解释器-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+</head>
+<body>
+    <div id="example"></div>
+    <!--text/babel 是es6的一套中转的编译内容-->
+    <script type="text/babel">
+        ReactDOM.render(
+                <h1>hello,world</h1>,
+                document.getElementById('example')
+        );
+    </script>
+</body>
+</html>
