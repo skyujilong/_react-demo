@@ -10,7 +10,7 @@ var TestComment = React.createClass({
             <div className="testComment">
                 <h3>text:{this.state.userInput}</h3>
                 <a href="javascript:void(0);" onClick={this.clearAndFocusInput}>Click to Focus and Reset</a>
-                {/*代码注释*/}
+                {/*代码注释 这里只能通过这样的方式 来进行传递ref了*/}
                 <input ref={(ref)=>this.myInput = ref} value={this.state.userInput} onChange={this.handleChange}/>
             </div>
         );
