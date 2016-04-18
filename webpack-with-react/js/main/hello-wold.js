@@ -13,8 +13,8 @@ console.log(obj);
 console.log('-------------------------------------------');
 var obj2 = require('../hello-world/es6-export-demo');
 console.log(obj2);
-
-
+let {yjl} = obj2;
+console.log(yjl.name());
 $(document).ready(function(){
     $('#hello').text(say());
 });
