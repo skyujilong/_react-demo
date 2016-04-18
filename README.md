@@ -12,3 +12,19 @@ eg:
 }
 console.log(a); //error
 ```
+###const###
+const 声明创建一个只读的常量。这不意味着常量指向的值不可变，而是变量标识符的值只能赋值一次。
+eg:          
+```
+console.log(a);//有变量声明提前特性
+const a = '1';
+//a = '2';//error;
+//const b;必须赋值 否则 error
+//b = 'c';//error
+if(true){
+    const b = 'a';
+    console.log(b);
+    //b = 'd';//error不能够赋值
+}
+//console.log(b);//error 是块级作用域
+```
