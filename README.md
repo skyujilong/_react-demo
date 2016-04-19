@@ -14,7 +14,7 @@ console.log(a); //error
 ```
 ###const###
 const 声明创建一个只读的常量。这不意味着常量指向的值不可变，而是变量标识符的值只能赋值一次。
-eg:          
+eg:
 ```
 console.log(a);//有变量声明提前特性
 const a = '1';

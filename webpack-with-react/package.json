@@ -32,6 +32,7 @@
     "script-loader":"*",
     "babel-loader":"*",
     "babel-core":"*",
+    "babel-runtime":"*",
     "babel-preset-es2015":"*",
     "babel-plugin-transform-runtime":"*",
     "jquery":"*"
